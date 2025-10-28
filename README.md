@@ -1,3 +1,5 @@
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red.svg)](https://github.com/sponsors/youcefl)
+
 # computational-maths-engineering
 
 🇬🇧 My writings about maths, software engineering and bridges between the two.<br>
