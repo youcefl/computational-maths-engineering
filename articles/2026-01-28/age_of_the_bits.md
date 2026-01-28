@@ -2,7 +2,7 @@
 
 Note: ce texte a été entièrement écrit par un humain, l’IA n’a fait que le relire et proposer des corrections mineures.
 
-Dans mon précédent post je mentionnais la possibilité d’évoquer le nombre de bits d’information produits par l’Homme depuis le 01.01.1946, c’est chose faite dans le texte qui suit.
+Dans mon précédent post (visible [ici](https://github.com/youcefl/computational-maths-engineering/blob/8e8671dfcb6022d1876925e1c0f3a7250a2ca633/articles/2026-01-27/deep_impact_(1998).md) ou [ici](https://www.linkedin.com/posts/youcef-l-9b125b44_quand-morgan-freeman-donne-le-bon-ordre-de-activity-7421899882849865728-KvPo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAlKvNUB1h1isixN0dJPfO3i0PG2mx4ZUMY)) je mentionnais la possibilité d’évoquer le nombre de bits d’information produits par l’Homme depuis le 01.01.1946, c’est chose faite dans le texte qui suit.
 
 D’abord pourquoi le 01.01.1946 ? Parce que cette date nous amène 80 ans en arrière, au sortir de la seconde guerre mondiale (qui a fait plus de 50 millions de morts sur une population globale d’environ 2,3 milliards d’humains), époque où à la mort à l’échelle industrielle succède l’industrialisation du calcul.
 En effet avec les travaux d’Alan Turing, John Von Neuman et Norbert Wiener, et le dévoilement public de l’ENIAC en février 1946 (premier ordinateur Turing-complet entièrement électronique) le calcul machinique n’est plus seulement une assistance optionnelle, il prend le chemin de l’autonomisation, il s’approche du coeur de la civilisation. L’effort dévolu à la distribution de la mort se transforme en effort dévolu au calcul sans que l’on se pose vraiment de question sur le projet civilisationnel...<br>
