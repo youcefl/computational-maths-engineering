@@ -260,16 +260,16 @@ Sm(b, n) = {
 
 ### Performance comparison
 
-| Function | b | n | time (ms) | Speed-up compared to naive version |
-|---------|----|-------|-----------|------|
-| SmNaive | 10 | 40000 | 860 | 1 |
-| Sm | 10 | 40000 | 6.2 | 138.7 |
-| SmNaive | 10 | 100000 | 6181 | 1 |
-| Sm | 10 | 100000 | 37 | 167 |
-| SmNaive | 2 | 40000 | 775 | 1 |
-| Sm | 2 | 40000 | 10 | 77.5 |
-| SmNaive | 2 | 100000 | 5870 | 1 |
-| Sm | 2 | 100000 | 21.2 | 276.9 |
+| Function | b | n | time (ms) | Speed-up | Digits |
+|----------|---|---|-----------|----------|--------|
+| SmNaive | 10 | 40000 | 860 | 1 | 188894 |
+| Sm | 10 | 40000 | 6.2 | 138.7 | 188894 |
+| SmNaive | 10 | 100000 | 6181 | 1 | 488895 |
+| Sm | 10 | 100000 | 37 | 167 | 488895 |
+| SmNaive | 2 | 40000 | 775 | 1 | 172936 |
+| Sm | 2 | 40000 | 10 | 77.5 | 172936 |
+| SmNaive | 2 | 100000 | 5870 | 1 | 472300 |
+| Sm | 2 | 100000 | 21.2 | 276.9 | 472300 |
 
 Note that Sm could be made faster by precomputing the $C_k$ values. The algorithm Sm
 given above was implemented in C++ and use in [cutrialdive](https://github.com/youcefl/cutrialdive) (at least in version 1.0.0
