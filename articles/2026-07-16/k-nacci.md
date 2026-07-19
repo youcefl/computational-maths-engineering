@@ -17,7 +17,7 @@ $$
 $$
 
 For $k=2$ the sequence is simply the well known Fibonacci sequence ($F_0=0, F_1=1$ and $F_{n}=F_{n-1}+F_{n-2}$ for $n \ge 2$). The goal is to derive a way to quickly
-compute G_{n}, to do that we use doubling formulas and a binary Lucas chain, more precisely let
+compute $G_{n}$, to do that we use doubling formulas and a binary Lucas chain, more precisely let
 $T_{n} = (G_{n}, ..., G_{n+k-1})$ if we can find a map $T_{n} \mapsto T_{2n}$, then we can use the binary
 expansion of $n$ to compute $G_{n}$.
 To establish the map $T_{n} \mapsto T_{2n}$ we use  theorem 4.1 in [1].
@@ -353,5 +353,23 @@ t[5] = 2*v5 + 2*v8 + 2*v9 + v10 + 2*v11 + 2*v12 + v13 + 2*v14 + v15 + t[5] * t[5
 ```
 
 
+## Benchmarking
+
+In this section, for various values of k, we compare the timings of the naive (iterative) implementation and the implementation which uses the doubling formulas established above.
+
+
+|k| n | size (bits) | version | time (s) | Speed-up factor |
+|-|---|-------------|---------|----------|-----------------|
+|2|500000|347120|naive|7.5|1|
+|2|500000|347120|fast|0.005|1500|
+|3|500000|439571|naive|16|1|
+|3|500000|439571|fast|0.023|695|
+|4|500000|473385|naive|21.7|1|
+|4|500000|473385|fast|0.045|482|
+
+
+
+
+## References
 
 [1] _Some identities for r-Fibonacci numbers,_ August 2011, F.T. Howard, Curtis Cooper
